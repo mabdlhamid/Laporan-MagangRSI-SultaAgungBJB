@@ -1,8 +1,9 @@
 
 import { useState } from 'react'
 import Login from './pages/Login.jsx'
-import Register from './pages/Register.jsx'
 import Dashboard from './pages/Dashboard.jsx'
+import EditProfil from './pages/EditProfil.jsx'
+import Register from './pages/Register.jsx'
 
 const KEY = 'sesi-laporan'
 

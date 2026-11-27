@@ -26,6 +26,12 @@ model User {
   role      Role     @default(USER)
   createdAt DateTime @default(now())
   reports   Report[]
+  email     String?  @unique
+  telepon   String?
+  institusi String?
+  jurusan   String?
+  divisi    String?
+  bio       String?  @db.Text
 }
 
 model Report {
